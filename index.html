@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/offcanvas-navbar/">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap5-dropdown-ml-hack-hover.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>bootstrap 5</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg  navbar-dark bg-dark py-3" aria-label="Main navigation">
+            <div class="container">
+                <a class="navbar-brand" href="#">alexweb</a>
+                <button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdown02" data-bs-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">Documents</a>
+                            <div class="dropdown-menu" aria-labelledby="dropdown02">
+                                <a class="dropdown-item" href="#">Introduction</a>
+                                <div class="dropdown dropend">
+                                    <a class="dropdown-item dropdown-toggle" href="#" id="dropdown-layouts"
+                                        data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Layouts</a>
+                                    <div class="dropdown-menu" aria-labelledby="dropdown-layouts">
+                                        <a class="dropdown-item" href="#">Basic</a>
+                                        <a class="dropdown-item" href="#">Compact Aside</a>
+                                        <div class="dropdown-divider"></div>
+                                        <div class="dropdown dropend">
+                                            <a class="dropdown-item dropdown-toggle" href="#" id="dropdown-layouts"
+                                                data-bs-toggle="dropdown" aria-haspopup="true"
+                                                aria-expanded="false">Custom</a>
+                                            <div class="dropdown-menu" aria-labelledby="dropdown-layouts">
+                                                <a class="dropdown-item" href="#">Fullscreen</a>
+                                                <a class="dropdown-item" href="#">Empty</a>
+                                                <div class="dropdown-divider"></div>
+                                                <a class="dropdown-item" href="#">Magic</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#home" class="nav-link">home </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#about" class="nav-link">about</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contact" class="nav-link">contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contact" class="nav-link"><i class="bi bi-search"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- start hero section -->
+        <section class="hero bg-dark text-light p-5 text-center text-sm-start p-lg-0">
+            <div class="container">
+                <div class="d-sm-flex justify-content-between align-items-center ">
+                    <div>
+                        <h1>become a <span class="text-warning">full stack developer</span> </h1>
+                        <p class="lead mt-3">"Success is not key to Happiness
+                            Happiness is the key to Success "</p>
+                        <button class="btn btn-primary btn-lg mt-4">learn more</button>
+                    </div>
+                    <img class="img-fluid w-50 d-none d-sm-block" src="images/showcase.svg" alt="" srcset="">
+                </div>
+            </div>
+        </section>
+        <!-- end hero section -->
+        <!-- start signup section -->
+        <section class="sign-up bg-primary text-light p-5">
+            <div class="container">
+                <div class="d-md-flex justify-content-between align-items-center">
+                    <h3 class="mb-3">
+                        sign up to develop
+                    </h3>
+                    <div class="input-group input-form">
+                        <input type="text" class="form-control" placeholder="Enter your email">
+                        <button class="btn btn-dark btn-lg" type="button">Sign up</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end signup section -->
+        <!-- start boxes section -->
+        <section class="boxes p-5 ">
+            <div class="container">
+                <div class="row text-center g-5">
+                    <div class="col-md">
+                        <div class="card bg-dark text-light">
+                            <div class="card-body text-center">
+                                <div class="h1 mb-3">
+                                    <i class="bi bi-laptop"></i>
+                                </div>
+                                <h3 class="card-title">
+                                    virtual
+                                </h3>
+                                <p class="card-text lead">
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                    Ipsum has been the industry's standard dummy text ever since the 1500s
+                                </p>
+                                <a href="#" class="btn btn-primary">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md">
+                        <div class="card bg-secondary text-light">
+                            <div class="card-body text-center">
+                                <div class="h1 mb-3">
+                                    <i class="bi bi-square"></i>
+                                </div>
+                                <h3 class="card-title">
+                                    Hybird
+                                </h3>
+                                <p class="card-text lead">
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                    Ipsum has been the industry's standard dummy text ever since the 1500s
+                                </p>
+                                <a href="#" class="btn btn-dark">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md">
+                        <div class="card bg-dark text-light">
+                            <div class="card-body text-center">
+                                <div class="h1 mb-3">
+                                    <i class="bi bi-people"></i>
+                                </div>
+                                <h3 class="card-title">
+                                    In Person
+                                </h3>
+                                <p class="card-text lead">
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                    Ipsum has been the industry's standard dummy text ever since the 1500s
+                                </p>
+                                <a href="#" class="btn btn-primary">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end boxes section -->
+        <!-- start learn section -->
+        <section class="learn p-5 bg-secondary-color">
+            <div class="container">
+                <div class="row justify-content-between align-items-center g-5">
+                    <div class="col-md">
+                        <img src="images/fundamentals.svg" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-md p-5">
+                        <p class="h2 mb-4">Learn Fundimental</p>
+                        <p class=" ">Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br>Lorem
+                            Ipsum has been the industry's standard dummy text ever since the 1500s <br><br>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br>Lorem
+                            Ipsum has been the industry's standard dummy text ever since the 1500s
+                            <br><br>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br> Lorem
+                            Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                        <a href="#" class="btn btn-light mt-3">
+                            <i class="bi bi-chevron-right"></i>
+                            Read More</a>
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section class="learn p-5 bg-dark text-light">
+            <div class="container">
+                <div class="row justify-content-between align-items-center g-5">
+                    <div class="col-md order-md-2">
+                        <img src="images/react.svg" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-md p-5 order-md-1 ">
+                        <p class="h2 mb-4">Learn Fundimental</p>
+                        <p class=" ">Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br>Lorem
+                            Ipsum has been the industry's standard dummy text ever since the 1500s <br><br>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br> Lorem
+                            Ipsum has been the industry's standard dummy text ever since the 1500s
+                            <br><br>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br>Lorem
+                            Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                        <a href="#" class="btn btn-light mt-3">
+                            <i class="bi bi-chevron-right"></i>
+                            Read More</a>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="accordian-section p-5 bg-secondary-color">
+
+        </section>
+
+    </main>
+    <footer>
+
+    </footer>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap5-dropdown-ml-hack.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
